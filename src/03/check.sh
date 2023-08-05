@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check number of parameters
 if (($# != 4)); then
     echo "Usage: ./main.sh [Column 1 background] [Column 1 font color] [Column 2 background] [Column 2 font color]"

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check each parameter
 for arg in "${params[@]}"; do
     if ((arg < 1 || arg > 6)); then

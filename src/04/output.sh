@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # color functions
 source color.sh
 

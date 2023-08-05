@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Array of valid names, titles and color names
 valid_vars=('column1_background' 'column1_font_color' 'column2_background' 'column2_font_color')
 var_titles=("Column 1 background" "Column 1 font_color" "Column 2 background" "Column 2 font_color")
