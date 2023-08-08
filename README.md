@@ -7,13 +7,13 @@ The final score is 100% (max)
 
 ## Task
 
-### Part 1. First effort
+### [Part 1](src/01/). First effort
 
 Write a bash script. The script is run with one parameter. It is a text parameter.  
 The script outputs the value of the parameter.  
 If the parameter is a number, the script must output an invalid input message.
 
-### Part 2. System research
+### [Part 2](src/02/). System research
 
 Write a bash script. The script should output the following information:
 
@@ -40,7 +40,7 @@ Responses **Y** and **y** are considered positive, all others - negative.
 If the user agrees, create a file in the current directory containing the information that had been outputted.
 The file name must looks like: **DD_MM_YY_HH_MM_SS.status** (The time in the file name must indicate when the data was saved).
 
-### Part 3. Visual output design for the system research script
+### [Part 3](src/03/). Visual output design for the system research script
 
 Write a bash script. Use the script from [**Part 2**](#part-2-system-research) and remove the part where the data is saved to a file.  The script is run with 4 parameters. The parameters are numeric. From 1 to 6, for example:  
 `script03.sh 1 3 4 5`
@@ -56,7 +56,7 @@ The font and background colours of one column must not match.
 If matching values are entered, there must be a message describing the problem and offering to call the script again.
 After the message output, the program should exit correctly.
 
-### Part 4. Configuring visual output design for the system research script
+### [Part 4](src/04/). Configuring visual output design for the system research script
 
 Write a bash script. Use the script from [**Part 3**](#part-3-visual-output-design-for-the-system-research-script). The colour designations are similar. The script runs without parameters. The parameters are set in the configuration file before the script is running.
 
@@ -87,7 +87,7 @@ Column 2 background = default (red)
 Column 2 font color = default (blue)
 ```
 
-### Part 5. File system research
+### [Part 5](src/05/). File system research
 
 Write a bash script. The script is run with a single parameter.  
 The parameter is an absolute or relative path to a directory. The parameter must end with '/', for example:  
