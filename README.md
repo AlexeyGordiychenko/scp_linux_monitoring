@@ -2,6 +2,9 @@
 
 Linux basic bash scripting and system research.
 
+## Score:
+The final score is 100% (max)
+
 ## Task
 
 ### Part 1. First effort
